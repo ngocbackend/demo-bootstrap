@@ -1,0 +1,130 @@
+
+header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.navbar-brand{ 
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nav-item{
+    .nav-link.nava{
+        text-transform: uppercase;
+        color: $color-black;
+        font-weight: 400;
+    }
+}
+.banner{
+    .carousel-item{
+        .h-600{
+            height: 600px;
+        }
+    }  
+}
+.category{
+    margin-top: 3rem;
+    .item{
+        position: relative;
+        img{
+            width: 100%;
+            height: 380px;
+            background-color: #529fb7;
+        }
+        h2{
+            position: absolute;
+            bottom: 5%;
+            left: 5%;
+            a{
+                color: $color-white;
+                font-size: 1.2rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+           
+        }
+    }
+}
+.title{
+    text-align: center;
+    margin-top: 3rem;
+    h2{
+        font-size: 1.5rem;
+        color: $color-black;
+    }
+    p{
+        color: #777777;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+.product{
+    margin-top: 3rem;
+    &-short{
+        position: relative;
+        text-decoration: none;
+        height: 330px;
+        display: block;
+        margin: 15px 0;
+        img{
+            width: 100%;
+            height: 100%;
+            background-color: #f9eeec ;
+        }
+        h3{
+            color: $color-black;
+            font-size: 1.2rem;
+            position: absolute;
+            left: 5%;
+            top: 10%;
+        }
+    }
+    &-tall{
+        height: 440px;
+        img{
+            background-color: #ecfbf8 ;
+        }
+    }
+}
+.subscribe{
+    input.text-subscribe{
+        width: 500px;
+        outline: none;
+        border-radius: 0;
+    }
+    [type="text"]{
+        outline: none;
+    }
+    .btn-subscribe{
+        border-radius: 0;
+        background-color: $color-black;
+    }
+}
+footer{
+    margin-top: 3rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    background-color: $color-black;
+    h3{
+        color: $color-white;
+        text-transform: uppercase;
+    }
+    .atm{
+        ul{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            li{
+                padding-right: 10px;
+                i{
+                    color: $color-white;
+                }
+                
+            }
+        }
+    }
+    p{
+        color: $color-white;
+    }
+}

@@ -1,0 +1,12 @@
+@media (max-width: 991px) {
+  .category .item {
+    padding-bottom: 30px; } }
+@media (max-width: 576px) {
+  .btn-search {
+    display: block;
+    width: 100%; }
+
+  .btn-subscribe {
+    width: 100%; } }
+
+/*# sourceMappingURL=reponsive.css.map */
